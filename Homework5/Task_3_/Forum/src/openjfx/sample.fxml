@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="236.0" prefWidth="393.0" stylesheets="@style.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="openjfx.Controller">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="122.0" minWidth="10.0" prefWidth="119.0" />
+      <ColumnConstraints maxWidth="129.0" minWidth="10.0" prefWidth="112.19999999999999" />
+      <ColumnConstraints maxWidth="95.0" minWidth="10.0" prefWidth="72.59998474121096" />
+   </columnConstraints>
+   <children>
+      <Label alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="108.0" text="Name*">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="108.0" text="Phone*" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="107.0" text="Email Adress*" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="109.0" text="Password*" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label text="Confirm Password*" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField id="text-field" fx:id="nameInput" GridPane.columnIndex="1" />
+      <TextField id="text-field" fx:id="phoneInput" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField id="text-field" fx:id="txtInput" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField id="text-field" fx:id="passInput" prefHeight="26.0" prefWidth="115.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField id="text-field" fx:id="confirmPassInput" stylesheets="@style.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label fx:id="nameLabel" GridPane.columnIndex="2" />
+      <Label fx:id="numbLabel" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label fx:id="emailLabel" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="confpassLabel" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label fx:id="passLabel" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Button id="button" fx:id="btnAdd" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#push" prefHeight="26.0" prefWidth="116.0" text="Register" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+   </children>
+</GridPane>

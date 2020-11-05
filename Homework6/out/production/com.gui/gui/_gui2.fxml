@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="316.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui._gui">
+    <children>
+        <Button fx:id="gen_a_z" layoutX="26.0" layoutY="185.0" mnemonicParsing="false" onAction="#buttonOnGen_a_z" prefHeight="26.0" prefWidth="153.0" text="Generate random A-Z" />
+        <Button layoutX="230.0" layoutY="185.0" mnemonicParsing="false" onAction="#buttonOnGet_a_z2" prefHeight="26.0" prefWidth="154.0" text="Random subset of A-Z" />
+        <TextField fx:id="seed" layoutX="85.0" layoutY="77.0" prefHeight="26.0" prefWidth="253.0" />
+        <TextField fx:id="size" layoutX="84.0" layoutY="131.0" prefHeight="26.0" prefWidth="254.0" />
+        <Button layoutX="121.0" layoutY="237.0" mnemonicParsing="false" onAction="#buttonQuit" prefHeight="26.0" prefWidth="162.0" text="Quit" />
+    </children>
+</AnchorPane>

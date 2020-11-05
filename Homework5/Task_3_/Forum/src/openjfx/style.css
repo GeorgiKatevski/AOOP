@@ -1,0 +1,13 @@
+#button {
+    -fx-text-fill: #7b73b8;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 16;
+}
+
+#text-field {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-focus-color: red;
+}
